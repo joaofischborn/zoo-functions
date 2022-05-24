@@ -18,7 +18,6 @@ const computeData = (param, elephants) => {
     return null;
   }
 };
-
 const handlerElephants = (param) => {
   if (param === undefined) {
     return undefined;
@@ -32,5 +31,5 @@ const handlerElephants = (param) => {
   }
   return computeData(param, elephants);
 };
-
+console.log(handlerElephants('averageAge'));
 module.exports = handlerElephants;
